@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/edtBirthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data de Nascimento" />
+
+    <EditText
+        android:id="@+id/edtNeighborhood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bairro" />
+
+    <EditText
+        android:id="@+id/edtAcademy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Academia" />
+
+    <EditText
+        android:id="@+id/edtRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recorde (segundos)" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar" />
+</LinearLayout>
